@@ -1,0 +1,15 @@
+<section class="lead-box reveal" aria-labelledby="lead-{{ include.source }}">
+ <div><span class="eyebrow" style="background:rgba(255,255,255,.12);color:#f2c66d">Free local matching</span>
+  <h2 id="lead-{{ include.source }}">Get matched with a vetted 66223 pro — free</h2><p>Tell us what you need. We connect you with up to three local specialists. No spam, no obligation.</p>
+  <ul><li>Buyer &amp; seller agents who know south Overland Park</li><li>Lenders, insurance agents and movers</li><li>Roofers, HVAC, landscapers and other home pros</li></ul></div>
+ <form class="form form-card" data-form="Quick lead ({{ include.source }})" data-success="You're in. A local specialist will reach out within one business day.">
+  <div class="hp" aria-hidden="true"><label>Leave empty<input type="text" name="_hp" tabindex="-1" autocomplete="off"></label></div><input type="hidden" name="source" value="{{ include.source }}">
+  <div class="field"><label for="ql-goal-{{ include.source }}">I need help with</label>
+   <select id="ql-goal-{{ include.source }}" name="goal" required><option value="">Choose one…</option><option>Buying a home</option><option>Selling a home</option><option>Relocating to 66223</option><option>Mortgage or refinance</option><option>Home insurance</option><option>Moving company</option><option>Roofing / storm damage</option><option>Other home services</option></select></div>
+  <div class="row2"><div class="field"><label for="ql-name-{{ include.source }}">Name</label><input id="ql-name-{{ include.source }}" type="text" name="name" autocomplete="name" required></div>
+  <div class="field"><label for="ql-phone-{{ include.source }}">Phone</label><input id="ql-phone-{{ include.source }}" type="tel" name="phone" autocomplete="tel" required></div></div>
+  <div class="field"><label for="ql-email-{{ include.source }}">Email</label><input id="ql-email-{{ include.source }}" type="email" name="email" autocomplete="email" required></div>
+  <label class="check"><input type="checkbox" name="consent" value="yes" required> <span>I agree that 66223.com may share my request with up to three relevant local professionals (such as a real estate agent, lender, mover or contractor) who may contact me by phone, text or email about it. Consent is not a condition of any purchase. Message/data rates may apply. I can opt out anytime. See the <a href="{{root}}privacy/">Privacy Policy</a>.</span></label>
+  <button class="btn btn-primary btn-block" type="submit" style="color:#fff">Match me now</button>
+  <p class="form-status" role="status" aria-live="polite"></p>
+ </form></section>

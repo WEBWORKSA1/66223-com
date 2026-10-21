@@ -1,0 +1,6 @@
+# 66223.com — GitHub Pages (Jekyll). Pages builds this automatically on every push.
+# Custom domain switch: set url to https://66223.com, baseurl to "" and add a CNAME file containing 66223.com.
+title: "66223.com"
+url: "https://webworksa1.github.io"
+baseurl: "/66223-com"
+exclude: [README.md, BUILD-PROMPTS.md, _source]
