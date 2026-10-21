@@ -1,0 +1,41 @@
+---
+layout: default
+title: 'Support 66223.com | 66223.com'
+og_title: 'Support 66223.com'
+description: 'Support independent local guides for 66223 and Overland Park. Fund operations, contest prizes, local talent and outreach.'
+nav: 'community/'
+og_type: website
+---
+{% assign root = site.baseurl | append: "/" %}
+<section class="page-hero"><div class="wrap"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="{{root}}">Home</a> / <a href="{{root}}community/">Community</a> / <a href="{{root}}donate/">Support</a></nav><span class="eyebrow">Support</span><h1>Keep 66223.com free, useful and independent</h1><p class="lead">Your support pays for research, original photography, contest prizes and new tools — and keeps our guides free for every neighbor and newcomer.</p></div></section>
+<section class="section-tight"><div class="wrap grid g2" style="align-items:start">
+<div>
+ <h2>Where support goes</h2>
+ <div class="table-scroll"><table class="data"><thead><tr><th>Use</th><th>Share</th><th>What it funds</th></tr></thead><tbody>
+  <tr><td>Ongoing operations</td><td>35%</td><td>Hosting, data subscriptions, fact-checking, tools maintenance</td></tr>
+  <tr><td>Contests &amp; prizes</td><td>20%</td><td>Seasonal prizes and community recognition</td></tr>
+  <tr><td>Hiring local talent</td><td>25%</td><td>Paying local writers, photographers and video creators</td></tr>
+  <tr><td>Promotion &amp; marketing</td><td>20%</td><td>Getting free guides in front of new residents</td></tr></tbody></table></div>
+ <h3>Support tiers</h3>
+ <div class="grid g3">
+  <div class="card tier"><span class="tag">Supporter</span><div class="price">$5<small>/mo</small></div><p>Thanks in our supporter list.</p></div>
+  <div class="card tier featured"><span class="badge">Most popular</span><span class="tag">Neighbor</span><div class="price">$25<small>/mo</small></div><p>Supporter list + early contest announcements.</p></div>
+  <div class="card tier"><span class="tag">Champion</span><div class="price">$100<small>/mo</small></div><p>All of the above + name a monthly contest prize.</p></div></div>
+ <p class="kicker" style="margin-top:14px">66223.com is an independent publication, not a registered charity. Contributions are not tax-deductible.</p>
+</div>
+<div class="form-card">
+ <h3>Make a contribution</h3>
+ <div id="pay-direct" class="hidden" style="display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px"></div>
+ <form class="form" data-form="Support pledge" data-success="Thank you! We'll send you a secure payment link within one business day."><div class="hp" aria-hidden="true"><label>Leave empty<input type="text" name="_hp" tabindex="-1" autocomplete="off"></label></div>
+  <fieldset class="field" style="border:0;padding:0;margin:0"><legend class="legend">Amount</legend><div class="amounts"><label class="choice"><input type="radio" name="tier" value="5" data-amount><span>$5</span></label><label class="choice"><input type="radio" name="tier" value="25" data-amount checked><span>$25</span></label><label class="choice"><input type="radio" name="tier" value="50" data-amount><span>$50</span></label><label class="choice"><input type="radio" name="tier" value="100" data-amount><span>$100</span></label><label class="choice"><input type="radio" name="tier" value="250" data-amount><span>$250</span></label><label class="choice"><input type="radio" name="tier" value="custom" data-amount><span>Other</span></label></div></fieldset>
+  <input type="hidden" id="donate-amount" name="amount" value="25">
+  <div class="field hidden" id="custom-amount-wrap"><label for="d-custom">Custom amount ($)</label><input id="d-custom" type="number" name="custom_amount" min="1"></div>
+  <div class="field"><label for="d-freq">Frequency</label><select id="d-freq" name="frequency"><option>One-time</option><option>Monthly</option><option>Annual</option></select></div>
+  <div class="field"><label for="d-purpose">Direct my support to</label><select id="d-purpose" name="purpose"><option>Wherever it's needed most</option><option>Operations</option><option>Contests &amp; prizes</option><option>Hiring local talent</option><option>Promotion &amp; marketing</option></select></div>
+  <div class="row2"><div class="field"><label for="d-name">Name</label><input id="d-name" type="text" name="name" required></div><div class="field"><label for="d-email">Email</label><input id="d-email" type="email" name="email" required></div></div>
+  <label class="check"><input type="checkbox" name="public_thanks" value="yes"> List my name on the supporter page</label>
+  <button class="btn btn-gold btn-block" type="submit">Continue to secure payment</button>
+  <p class="form-status" role="status" aria-live="polite"></p>
+  <p class="src">We never ask for card details on this site. You'll receive a link to a secure payment processor.</p></form>
+</div></div></section>
+<section class="section-tight"><div class="wrap notice">Businesses: looking for visibility in return? See <a href="{{root}}advertise/">sponsorship packages</a> instead.</div></section>
