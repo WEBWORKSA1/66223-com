@@ -110,8 +110,8 @@ def main():
     open(os.path.join(OUT,"sitemap.xml"),"w").write('---\nlayout: null\n---\n<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls + '\n</urlset>\n')
     open(os.path.join(OUT,"robots.txt"),"w").write("---\nlayout: null\n---\nUser-agent: *\nAllow: /\n\nUser-agent: Mediapartners-Google\nAllow: /\n\nSitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml\n")
     open(os.path.join(OUT,"ads.txt"),"w").write("google.com, pub-6620975821265271, DIRECT, f08c47fec0942fa0\n")
-    cfg_url = os.environ.get("JEKYLL_URL", "https://webworksa1.github.io")
-    cfg_base = os.environ.get("JEKYLL_BASEURL", "/66223-com")
+    cfg_url = os.environ.get("JEKYLL_URL", "https://66223.com")
+    cfg_base = os.environ.get("JEKYLL_BASEURL", "")
     open(os.path.join(OUT,"_config.yml"),"w").write(f'''# 66223.com — GitHub Pages (Jekyll). Pages builds this automatically on every push.
 # Custom domain switch: set url to https://66223.com, baseurl to "" and add a CNAME file containing 66223.com.
 title: "66223.com"
